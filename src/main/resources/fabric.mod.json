@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "altar",
+  "version": "${version}",
+  "name": "Altar",
+  "description": "Turn any block into a forging altar. Players sacrifice the required items, wait out a ritual timer, and receive the forged item. Server-side only: vanilla clients can join.",
+  "authors": ["thebestcoolcopyes"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.altar.AltarMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": ">=26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
